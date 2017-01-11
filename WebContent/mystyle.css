@@ -1,0 +1,22 @@
+#container{
+	
+	width: 400px;
+	height: 250px;
+	border: 1px solid black;
+    text-align: center;
+    background: #A2BA00;
+    box-shadow:10px 10px 4px gray;
+   	border-radius: 10px;
+}
+
+.blanket{
+	width: 230px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
+.bg-color{
+	background: #F2FF9A;
+}

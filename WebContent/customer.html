@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head><title>Customer</title>
+
+</head>
+
+<body>
+	<h1>Add New Customer</h1>
+	<form action=SaveCustServlet method="post">
+		<table>
+		<tr><td>CustomerName:</td><td><input type="text" name="custName"/></td></tr>
+		<tr><td>Contact person:</td><td><input type="text" name="contactName"/></td></tr>
+		<tr><td>Address:</td><td><input type="text" name="address"/></td></tr>
+		<tr><td>City:</td><td><input type="text" name="city"/></td></tr>
+		<tr><td>PostalCode:</td><td><input type="text" name="postcode"/></td></tr>
+		
+		<tr><td>Country:</td><td>
+		
+		<select name="country" style="width:150px">
+			
+			<option>Germany</option>
+			<option>Italy</option>
+			<option>Sweden</option>
+			<option>UK</option>
+			<option>Other</option>
+		</select>
+		</td></tr>
+		
+		<tr><td colspan="2"><input type="submit" value="Save Customer"/></td></tr>
+		</table>
+
+	</form>
+
+<br/>
+
+<a href="CustomerServlet">view Customer List</a>
+
+</body>
+
+</html>
